@@ -12,15 +12,19 @@ const handle = app.getRequestHandler();
 app.prepare().then(()=>{
   const server = express();
 
-  //Worked
-  server.get('teste', (req, res) => {
-    res.redirect(301, '/aaa')
+  //Redirect Test
+  server.get('/teste', (req, res) => {
+    return app.render(req, res, '/test', req.query)
   });
 
-  //Others
-  server.get('*', (req, res) => {
-    return handle(req, res)
-  })
+  server.get('/', (req, res) => {
+    return app.render(req, res, '/index', req.query)
+  });
+
+  server.all('*', (req, res) => {
+    res.status(404);
+    return app.render(req, res, '/_error', req.query)
+  });
 
   /*
   createServer((req, res) => {
