@@ -57,7 +57,7 @@ app.prepare().then(()=>{
     return app.render(req, res, '/_error', req.query)
   });
 
-  server.listen(3000, err => {
+  server.listen(process.env.PORT || 5000, err => {
     if(err) throw err;
     console.log('Ready on http://localhost:3000');
   })
