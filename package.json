@@ -1,7 +1,7 @@
 {
   "name": "ssr-react-nodejs",
   "version": "1.0.0",
-  "main": "pages/index.js",
+  "main": "index.js",
   "repository": "https://github.com/vinicius-a-portela/ssr-react-nodejs.git",
   "author": "vinicius-a-portela <vinicius.portela.stm@gmail.com>",
   "license": "MIT",

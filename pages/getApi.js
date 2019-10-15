@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import fetch from 'isomorphic-unfetch';
-import Link from 'next/link';
 
 export default class Home extends React.Component {
     static async getInitialProps({query}){
