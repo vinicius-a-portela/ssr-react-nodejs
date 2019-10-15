@@ -5,8 +5,6 @@ export default class Home extends React.Component {
     return(
       <div>
         <h1>SSR-REACT-NODE</h1>
-        language: {this.props.lang}
-        version: {this.props.version}
       </div>
     );
   }
