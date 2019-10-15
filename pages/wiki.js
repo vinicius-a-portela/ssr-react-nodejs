@@ -1,10 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
+import fetch from 'isomorphic-unfetch';
 
 export default class Home extends React.Component {
     static async getInitialProps({query}){
         //Execute this on ServerSide
-        const res = await fetch('http://localhost:3000/api'); 
+        const res = await fetch('http://localhost:'+ (process.env.PORT || 5000) + '/api'); 
         const data = await res.json();
 
         return{ data, query }

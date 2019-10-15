@@ -30,6 +30,12 @@ app.prepare().then(()=>{
     return app.render(req, res, '/getApi', req.query)
   });
 
+  server.get('/google3af1ff7b04f1bf61.html', (req, res) => {
+    fs.readFile('/google3af1ff7b04f1bf61.html', 'utf8', (err, text) => {
+        res.send(text);
+    });
+  });
+
   server.get('/api', (req, res) => {
     const data = require('./data');
     return res.send(data);
