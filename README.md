@@ -1,3 +1,3 @@
 # ssr-react-nodejs
 
-Um simples servidor SSR com NodeJS e ReactJS
+A simple ssr server using react and nodejs
