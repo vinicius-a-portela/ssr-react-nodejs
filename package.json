@@ -1,9 +1,9 @@
 {
   "name": "ssr-react-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/vinicius-a-portela/ssr-react-nodejs.git",
-  "author": "vinicius-a-portela <vinicius.portela.stm@gmail.com>",
+  "main": "server.js",
+  "repository": "https://github.com/vinicius-portela/ssr-react-nodejs.git",
+  "author": "vinicius-portela <vinicius@simpx.net>",
   "license": "MIT",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
@@ -13,6 +13,7 @@
     "isomorphic-fetch": "^2.2.1",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
+    "next-images": "^1.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },

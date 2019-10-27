@@ -1,3 +1,9 @@
 # ssr-react-nodejs
 
-Um simples servidor SSR com NodeJS e ReactJS
+Content Idioms:
+🇧🇷 Português
+🇺🇸 English
+
+# SSR (Server-Side Rendering) com NextJS, React, Node e Express
+
+# SSR (Server-Side Rendering) with NextJS, React, Node and Express
