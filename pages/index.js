@@ -10,10 +10,10 @@ export default class Home extends React.Component {
     return(
       <div>
         <div class='header'>
-          <h1>ssr-react-node</h1>
+          <h1>next-react-express</h1>
         </div>
 
-        Example of Linking (Edit this page, pages/index.js)<br/>
+        <b>This page is a example of linking</b> (Edit this page, pages/index.js)<br/>
         Also, Other Examples:
         <ol>
           <li>
@@ -47,6 +47,16 @@ export default class Home extends React.Component {
             </Link>
           </li>
           <li>
+            <Link href='/fetch'>
+              <a>Fetch a API</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/server_or_client'>
+              <a>Check if is Server-Side or Client-Side</a>
+            </Link>
+          </li>
+          <li>
             <Link href='/_error'>
               <a>Test Error Page</a>
             </Link>
@@ -60,6 +70,11 @@ export default class Home extends React.Component {
             </a>
           </li>
         </ol>
+
+        Find more about on github repository:
+        <a href='https://www.github.com/vinicius-portela/next-react-express' target='_blank'>
+          https://www.github.com/vinicius-portela/next-react-express
+        </a>
       </div>
     );
   }
