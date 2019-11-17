@@ -19,7 +19,7 @@ module.exports = withCSS(withImage({
     /**
      * if(!isServer) {
      *   config.node = {
-     *     fs = 'empty'
+     *     fs: 'empty'
      *   }
      * }
      */
