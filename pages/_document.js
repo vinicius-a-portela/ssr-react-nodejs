@@ -20,9 +20,8 @@ export default class MyDocument extends Document {
           */}
         </Head>
         <body>
-          <Main>
-            <NextScript />
-          </Main>
+          <Main/>
+          <NextScript />
         </body>
       </html>
     );
